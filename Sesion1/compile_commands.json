@@ -1,0 +1,33 @@
+[{
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo07\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo07",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo07\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo07\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo06\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo06",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo06\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo06\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo05\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo05",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo05\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo05\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo04\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo04",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo04\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo04\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo08\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo08",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo08\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo08\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo03\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo03",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo03\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo03\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo02\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo02",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo02\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Ejemplo02\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }, {
+  "file": "C:\\Users\\alexd\\Documents\\Sesion1\\Sesion1\\main.cpp",
+  "directory": "C:\\Users\\alexd\\Documents\\Sesion1\\Sesion1",
+  "command": "clang++ -c C:\\Users\\alexd\\Documents\\Sesion1\\Sesion1\\main.cpp -o C:\\Users\\alexd\\Documents\\Sesion1\\Sesion1\\main.cpp.o  -I. -I.  -gdwarf-2  -O0  -Wall"
+ }]
