@@ -1,12 +1,18 @@
 #include <iostream>
+using namespace std;
 
-int main(int argc, char **argv)
-{
-	int x;
-	std::cout << "Escriba un numero: ";
-	std::cin >> x;
-	std::cout << "El numero introducido es: " << x << "\n";
-	
-	return 0;
-	
+// Prototipo de la función
+void ejemplo(int a, int& b);
+
+int main(int argc, char** argv) {
+    int x = 2, y = 4;
+    cout << "1. x = " << x << " y = " << y << endl;
+    ejemplo(x, y);
+    cout << "2. x = " << x << " y = " << y << endl;
+    return 0;
+}
+
+void ejemplo(int a, int& b) {
+    a = 5;
+    b = 8;
 }

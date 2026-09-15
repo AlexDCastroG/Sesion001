@@ -1,23 +1,44 @@
 #include <iostream>
+#include <stdio.h>
+#include <string.h>
 using namespace std;
-int main(int argc, char** argv)
-{
-    int cuantos;
-    cout << "Cuantos datos va a introducir? ";
-    cin >> cuantos;
-    if(cuantos <= 0)
-        cout << "La cantidad no es valida\n";
-    else {
-        int llevo = 0;
-        double suma = 0, dato, media = 0;
-        while(llevo < cuantos) {
-            llevo++;
-            cout << "Introduzca el dato " << llevo << "/" << cuantos << ": ";
-            cin >> dato;
-            suma += dato;
-        };
-        media = suma / cuantos;
-        cout << "La media de los " << cuantos << " datos es " << media << ".\n";
-    };
+
+struct persona {
+    char nombre[30];
+    int edad;
+    long telefono;
+};
+
+// Declaración previa de la función
+persona CrearPersona(char n[30], int e, long t);
+
+void Escribir(persona p) { // paso por valor
+    cout << p.nombre << " tiene " << p.edad << " anyos y su telefono es " << p.telefono << endl;
+}
+
+void EscribirPuntero(persona* p) { // mediante puntero
+    cout << p->nombre << " tiene " << p->edad << " anyos y su telefono es " << p->telefono << endl;
+}
+
+int main(int argc, char** argv) {
+    persona ejemplo;
+    
+    ejemplo = CrearPersona((char*) "Jesus", 99, 123456789);
+    cout << "Paso por valor" << endl;
+    Escribir(ejemplo);
+    cout << endl;
+    
+    ejemplo = CrearPersona((char*) "Mario", 55, 987654321);
+    cout << "Paso con punteros" << endl;
+    EscribirPuntero(&ejemplo);
+    
     return 0;
+}
+
+persona CrearPersona(char n[30], int e, long t) {
+    persona aux;
+    strcpy(aux.nombre, n); // la cadena n se copia en aux.nombre
+    aux.edad = e;
+    aux.telefono = t;
+    return aux;
 }

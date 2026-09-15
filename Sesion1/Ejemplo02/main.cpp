@@ -1,13 +1,25 @@
 #include <iostream>
 using namespace std;
-int main(int argc, char** argv)
-{
-    int x, y, z;
-    cout << "Introduzca el primer numero: ";
-    cin >> x;
-    cout << "Introduzca el segundo numero: ";
-    cin >> y;
-    z = x + y;
-    cout << "La suma " << x << " mas " << y << " es igual a " << z << "." << endl;
+
+int cuadPorValor(int a) {
+    return a = a * a;
+}
+
+void cuadPorInd(int* b) {
+    *b = (*b) * (*b);
+}
+
+void cuadPorRef(int& c) {
+    c = c * c;
+}
+
+int main(int argc, char** argv) {
+    int a = 5, b = 6, c = 7;
+    
+    cuadPorValor(a);
+    cuadPorInd(&b);
+    cuadPorRef(c);
+    
+    cout << "a = " << a << " b = " << b << " c = " << c << endl;
     return 0;
 }
